@@ -1,0 +1,36 @@
+.App-title{
+    font-family:'Kanit', sans-serif;
+    font-weight: 600;
+    line-height: 90px;
+    text-transform: uppercase;
+    width: 500px;
+    letter-spacing: 12px;
+    text-align: center;
+  }
+  
+.App-subtitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #464646;
+    width: 500px;
+}
+
+.App-title, .App-subtitle{
+    text-align: center;
+}
+
+@media only screen and (max-width : 500px){
+    .App-title{
+        font-size: 3rem;
+        line-height: 60px;
+        letter-spacing: 8px;
+    }
+
+    .App-subtitle{
+        font-size: 1.2rem;
+    }
+
+    .App-title, .App-subtitle{
+        width: 90%;
+    }
+}

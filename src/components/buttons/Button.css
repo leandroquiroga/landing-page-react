@@ -1,0 +1,15 @@
+.App-buttons{
+    margin: 10px 0;
+    font: 400 1rem 'Josefin Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: #00E6C9;
+    padding: .7rem .9rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+.App-buttons:hover{
+    background-color: #2ea091;
+}
